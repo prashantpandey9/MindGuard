@@ -1,0 +1,24 @@
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="shieldGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <circle cx="64" cy="64" r="60" fill="white" stroke="#e2e8f0" stroke-width="2"/>
+  
+  <path d="M64 16 L96 32 L96 64 C96 80, 80 96, 64 112 C48 96, 32 80, 32 64 L32 32 Z" 
+        fill="url(#shieldGradient)" 
+        stroke="#4a5568" 
+        stroke-width="1"/>
+  
+  <circle cx="52" cy="48" r="12" fill="none" stroke="white" stroke-width="3"/>
+  
+  <line x1="61" y1="57" x2="72" y2="68" stroke="white" stroke-width="3" stroke-linecap="round"/>
+  
+  <circle cx="64" cy="64" r="16" fill="none" stroke="#e53e3e" stroke-width="4"/>
+  <line x1="52" y1="52" x2="76" y2="76" stroke="#e53e3e" stroke-width="4" stroke-linecap="round"/>
+  
+  <text x="64" y="100" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#4a5568">BLOCKER</text>
+</svg> 

@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "Search Word Blocker",
+  "version": "1.2",
+  "description": "Block distracting searches and stay focused by filtering out unwanted words from your search results.",
+  "icons": {
+    "16": "icon-16.svg",
+    "48": "icon-48.svg",
+    "128": "logo.svg"
+  },
+  "permissions": ["tabs", "storage", "webNavigation"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon-16.svg",
+      "48": "icon-48.svg",
+      "128": "logo.svg"
+    }
+  },
+  "options_page": "settings.html",
+  "host_permissions": [
+    "<all_urls>"
+  ]
+}
