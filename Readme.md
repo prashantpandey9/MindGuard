@@ -3,6 +3,7 @@
 A powerful Chrome extension that helps you stay focused by blocking distracting searches and URLs containing specified words.
 
 ![Extension Logo](logo.svg)
+![Setting Page](image.png)
 
 ## ✨ Features
 
@@ -150,7 +151,7 @@ Contributions are welcome! Here's how you can help:
 
 ## 📝 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ## 🐛 Bug Reports & Feature Requests
 
